@@ -3,11 +3,11 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Persistance;
 
-namespace Reactivities.Application.Profiles
+namespace EventManagement.Server.Application.Profiles
 {
     public class ProfileReader : IProfileReader
     {

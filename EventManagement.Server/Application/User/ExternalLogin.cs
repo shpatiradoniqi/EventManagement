@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Domain;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.User
+namespace EventManagement.Server.Application.User
 {
     public class ExternalLogin
     {

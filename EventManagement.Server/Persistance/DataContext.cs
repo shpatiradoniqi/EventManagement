@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Domain;
+using EventManagement.Server.Domain;
 
 
-namespace Reactivities.Persistance
+namespace EventManagement.Server.Persistance
 {
     public class DataContext : IdentityDbContext<AppUser>
     {

@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using Reactivities.Domain;
+using EventManagement.Server.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Comments
+namespace EventManagement.Server.Application.Comments
 {
     public class MappingProfile : Profile
     {

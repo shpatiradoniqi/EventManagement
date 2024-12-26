@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-namespace Reactivities.Application.Errors
+namespace EventManagement.Server.Application.Errors
 {
     public class RestException : Exception
     {

@@ -1,15 +1,15 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class Attend
     {

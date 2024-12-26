@@ -1,4 +1,4 @@
-﻿namespace Reactivities.Application.Photos
+﻿namespace EventManagement.Server.Application.Photos
 {
     public class PhotoUploadResult
     {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using Reactivities.Application.Errors;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace Reactivities.Application.Profiles
+namespace EventManagement.Server.Application.Profiles
 {
     public class ListaActivities
     {

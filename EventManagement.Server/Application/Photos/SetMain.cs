@@ -5,11 +5,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Persistance;
 
-namespace Reactivities.Application.Photos
+namespace EventManagement.Server.Application.Photos
 {
     public class SetMain
     {

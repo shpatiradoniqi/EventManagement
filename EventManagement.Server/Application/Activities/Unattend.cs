@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Persistance;
 using System.Net;
 using System.Threading.Tasks;
 using System.Threading;

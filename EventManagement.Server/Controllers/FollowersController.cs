@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Reactivities.Application.Followers;
-using Reactivities.Application.Profiles;
+using EventManagement.Server.Application.Followers;
+using EventManagement.Server.Application.Profiles;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

@@ -5,12 +5,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Interfaces;
-using Reactivities.Application.Profiles;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Application.Profiles;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 
-namespace Reactivities.Application.Followers
+namespace EventManagement.Server.Application.Followers
 {
     public class List
     {
