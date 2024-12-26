@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using AutoMapper;
-using Reactivities.Domain;
+using EventManagement.Server.Domain;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class MappingProfile: Profile 
     {

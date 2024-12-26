@@ -1,10 +1,10 @@
-﻿using Reactivities.Domain;
+﻿using EventManagement.Server.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Interfaces
+namespace EventManagement.Server.Application.Interfaces
 {
   public  interface IJwtGenerator
     {

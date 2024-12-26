@@ -1,9 +1,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using Reactivities.Application.Interfaces;
+using EventManagement.Server.Application.Interfaces;
 
-namespace Reactivities.Application.Profiles
+namespace EventManagement.Server.Application.Profiles
 {
     public class Details
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.User
+namespace EventManagement.Server.Application.User
 {
     public class User
     {

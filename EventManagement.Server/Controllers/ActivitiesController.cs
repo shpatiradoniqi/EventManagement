@@ -1,10 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Reactivities.Application.Activities;
+using EventManagement.Server.Application.Activities;
 using System.Threading.Tasks;
 using System;
-using EventManagement.Server.Application.Activities;
 
 namespace EventManagement.Server.Controllers
 {

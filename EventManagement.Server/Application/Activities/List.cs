@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Interfaces;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class List
     {

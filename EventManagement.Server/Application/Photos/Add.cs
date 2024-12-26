@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Interfaces;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 
-namespace Reactivities.Application.Photos
+namespace EventManagement.Server.Application.Photos
 {
     public class Add
     {

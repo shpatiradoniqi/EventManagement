@@ -1,15 +1,15 @@
 ﻿using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Interfaces;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Profiles
+namespace EventManagement.Server.Application.Profiles
 {
     public class Edit
     {

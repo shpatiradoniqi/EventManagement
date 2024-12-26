@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
-using Reactivities.Application.Photos;
+using EventManagement.Server.Application.Photos;
 
-namespace Reactivities.Application.Interfaces
+namespace EventManagement.Server.Application.Interfaces
 {
     public interface IPhotoAccessor
     {

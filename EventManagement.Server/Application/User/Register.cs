@@ -2,11 +2,11 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Reactivities.Application.Errors;
-using Reactivities.Application.Interfaces;
-using Reactivities.Application.Validators;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Application.Interfaces;
+using EventManagement.Server.Application.Validators;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.User
+namespace EventManagement.Server.Application.User
 {
     public class Register
     {

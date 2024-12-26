@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class AttendeeDto
     {

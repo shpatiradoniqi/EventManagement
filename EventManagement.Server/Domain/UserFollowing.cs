@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Reactivities.Domain
+namespace EventManagement.Server.Domain
 {
     public class UserFollowing
     {

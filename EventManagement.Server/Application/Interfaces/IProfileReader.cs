@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Reactivities.Application.Profiles;
+using EventManagement.Server.Application.Profiles;
 
-namespace Reactivities.Application.Interfaces
+namespace EventManagement.Server.Application.Interfaces
 {
     public interface IProfileReader
     {

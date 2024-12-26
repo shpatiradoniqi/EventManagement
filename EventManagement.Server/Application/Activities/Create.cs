@@ -1,14 +1,14 @@
 ﻿using MediatR;
-using Reactivities.Domain;
-using Reactivities.Persistance;
+using EventManagement.Server.Domain;
+using EventManagement.Server.Persistance;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;
-using Reactivities.Application.Interfaces;
+using EventManagement.Server.Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class Create
     {

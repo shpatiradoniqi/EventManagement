@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using Reactivities.Domain;
+using EventManagement.Server.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reactivities.Persistance
+namespace EventManagement.Server.Persistance
 {
     public class Seed
     {

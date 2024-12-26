@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using Reactivities.Domain;
+using EventManagement.Server.Domain;
 
-namespace Reactivities.Application.Profiles
+namespace EventManagement.Server.Application.Profiles
 {
     public class Profile
     {

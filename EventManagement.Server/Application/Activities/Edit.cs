@@ -1,13 +1,13 @@
 ﻿using FluentValidation;
 using MediatR;
-using Reactivities.Application.Errors;
-using Reactivities.Persistance;
+using EventManagement.Server.Application.Errors;
+using EventManagement.Server.Persistance;
 using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Activities
+namespace EventManagement.Server.Application.Activities
 {
     public class Edit
     {
