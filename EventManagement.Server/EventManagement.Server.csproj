@@ -5,6 +5,7 @@
     <SpaRoot>..\eventmanagement.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:5173</SpaProxyServerUrl>
+    <UserSecretsId>072c1507-4fc0-4451-8d13-b3f9c6f81c18</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using EventManagement.Server.Application.Activities;
 using System.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 
 namespace EventManagement.Server.Controllers
 {
