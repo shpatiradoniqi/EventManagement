@@ -30,6 +30,7 @@ namespace EventManagement.Server
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
+                c.CustomSchemaIds(type => type.FullName);
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EventManagement.Server", Version = "v1" });
             });
         }
