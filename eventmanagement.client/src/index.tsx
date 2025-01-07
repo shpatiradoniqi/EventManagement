@@ -13,7 +13,7 @@ import registerServiceWorker from './registerServiceWorker';
 import ScrollToTop from './app/layout/ScrollToTop';
 import dateFnsLocalizer from 'react-widgets-date-fns';
 
-dateFnsLocalizer();
+//dateFnsLocalizer();
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
@@ -24,7 +24,7 @@ const store = configureStore(history);
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router history={history}>
+         <Router location={history.location} navigator={history}>
             <ScrollToTop>
                 <App />
             </ScrollToTop>
